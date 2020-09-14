@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+#new-comment {
+	width: 100%;
+  margin-top: 24px;
+  background: #009688;
+  padding: 12px;
+  display: table;
+  font-size: 0;
+  box-sizing: border-box;
+}
+#new-comment input {
+	display: block;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  border: 1px solid #00BCD4;
+  padding: 6px 12px;
+  font: 15px/22px Arial;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+#new-comment textarea {
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #00BCD4;
+  padding: 6px 12px;
+  font: 15px/22px Arial;
+  max-width: calc(100% - 146px);
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);    
+}
+#nc-button {
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #00BCD4;
+  padding: 6px 12px;
+  font: 15px/22px Arial;  
+  box-sizing: border-box;
+  background: #00BCD4;
+  color: #fff;
+  letter-spacing: 1px;
+  width: 130px;
+  vertical-align: top;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.comment {
+  box-sizing: border-box;
+  padding: 12px 0;
+  margin: 0 12px;
+  border-bottom: 1px solid gainsboro;
+  position: relative;
+}
+.comment-name {
+  font-weight: bold;    
+  margin-bottom: 8px;  
+}
+.comment-text {
+  word-break: break-word;
+}
+.comment-date {
+  font-size: 13px;
+  color: #777;
+  margin-top: 6px;
+}
+.comment-delete {
+  font-family: sans-serif;
+  transform: scaleX(1.4);
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  color: #666;
+  cursor: pointer;
+}
+.comment-delete:hover {
+  color: black;
+}       
